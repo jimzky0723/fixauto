@@ -1,0 +1,42 @@
+body {
+    background: url(../images/background.png) repeat-x;
+    background: url(../images/background.png) no-repeat;
+    background-size: cover;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-stroke: 1px transparent;
+    font-weight: lighter!important;
+}
+.main_header {
+    margin-top: 10px;
+}
+.banner {
+    background-color: #fff;
+}
+.top_bar {
+    background: #bcb9b9 url(../images/head.png) repeat-x;
+    padding: 9px 0 11px;
+    border-radius: 8px 8px 0 0;
+}
+.navigation {
+    top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    background: #3d3938;
+}
+.menu {
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    zoom: 1;
+}
+.menu ul li {
+    margin-right: 1px;
+    display: inline-block;
+    font-size: 13px;
+    position: relative;
+}
+.menu ul li a:hover, .main-navigation ul li.current-menu-item a{
+    background: url(../images/menu.png) 31px 0 repeat-x;
+    color: #fff;
+}
