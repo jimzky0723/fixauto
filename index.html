@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,100 +5,223 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon"
+          type="image/png"
+          href="images/favicon.png">
 
-    <title>Justified Nav Template for Bootstrap</title>
+    <title>FixAuto PTE. LTD.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/justified-nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
-
 <div class="container">
+    <div class="main_header">
+        <div class="top_bar">
 
-    <header class="masthead">
-        <h3 class="text-muted">Project name</h3>
-
-        <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav text-md-center nav-justified w-100">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Downloads</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        <div class="banner">
+            <img src="images/header.jpg" class="img-fluid" />
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">OUR TEAM</a>
+            <a href="#">PRODUCTS & SERVICES</a>
+            <a href="#">WARRANTY COVERAGE</a>
+            <a href="#">USEFUL INFO</a>
+            <a href="#">FEEDBACK</a>
+            <a href="#">CORPORATE</a>
+            <a href="#">CORPORATE</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <ul id="nav">
+            <li><a href="#">Tyres</a></li>
+            <li><a href="#">Alignment</a></li>
+            <li><a href="#">Shock Absorber & Springs</a></li>
+            <li><a href="#">Brakes</a></li>
+            <li><a href="#">Lubricants & Filters</a></li>
+            <li><a href="#">Batteries</a></li>
+            <li><a href="#">Air Conditioning Flushing</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="slideshow">
+            <div id="carouselSection" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSection" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSection" data-slide-to="1"></li>
+                    <li data-target="#carouselSection" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="slides/1.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>WITH 12 DAYS</h5>
+                            <p>We can service your car instantly!</p>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main role="main">
-
-        <!-- Jumbotron -->
-        <div class="jumbotron">
-            <h1>Marketing stuff!</h1>
-            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-            <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
-        </div>
-
-        <!-- Example row of columns -->
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-                <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="slides/2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ALWAYS</h5>
+                            <p>The right tyre for your car!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="slides/3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>FEEL FREE TO WALK-IN</h5>
+                            <p>There is no need to make appointment!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselSection" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSection" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
+        <div class="mottoSection">
+            <div class="row">
+            <div class="motto col-sm">
+                <h3>Our Mission</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
 
-    </main>
+            <div class="motto col-sm">
+                <h3>Our Vision</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
 
-    <!-- Site footer -->
-    <footer class="footer">
-        <p>&copy; Company 2017</p>
-    </footer>
+            <div class="motto col-sm">
+                <h3>Our Goal</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+            </div>
+        </div>
 
-</div> <!-- /container -->
+        <div class="flyerSection">
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col-sm-3 flyerprice">
+                    <span class="dollarsign">$</span>49
+                </div>
+                <div class="col-sm-9 flyerdescription flyer1">
+                    <h1>Oil Change</h1>
+                    <div class="row">
+                        <p class="col-sm-4">Oil filter change, transmission, 10 pt safety check, barke system, battery, belts and fuel injection.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col-sm-3 flyerprice">
+                    <span class="dollarsign">$</span>79
+                </div>
+                <div class="col-sm-9 flyerdescription flyer2">
+                    <h1>Check Engine</h1>
+                    <div class="row">
+                        <p class="col-sm-4">May require additional diagnostic testing at additional charge. Not valid with other offers. For a limited time only.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col-sm-3 flyerprice">
+                    <span class="dollarsign">$</span>25
+                </div>
+                <div class="col-sm-9 flyerdescription flyer3">
+                    <h1>A/C Check</h1>
+                    <div class="row">
+                        <p class="col-sm-4">Check for leaks, verify pressure, check system pressure, check temperature.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="upperFooter">
+            <div class="row">
+                <div class="contact-us col-sm">
+                    <h3>Contact With us</h3>
+                    <div class="contact-address">
+                        <p>Centerville Road, DE 19808, US </p>
+                        <p class="phone">Phone: <span>(+94 123 456 789)</span></p>
+                        <p class="email">E-mail: <span>(contact@mate.com)</span></p>
+                    </div>
+                </div>
+                <div class="col-sm contact-us">
+                    <div class="col-md-12">
+                        <div class="form-group has-error">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required="" data-error="Please enter your name">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required="" data-error="Please enter your email">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required=""></textarea>
+                        </div>
+                        <div class="submit-button text-center">
+                            <button type="button" class="btn btn-success btn-block">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
+
+        <div class="lowerFooter">
+            <div class="row">
+                <!-- Footer Links -->
+                <div class="col-sm">
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#">Homepage</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <div class="copyright">
+                        <p>All copyrights reserved © 2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </body>
 </html>
