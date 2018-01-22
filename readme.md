@@ -1,6 +1,6 @@
 # FixAuto Website
 
-A website for a singaporean based auto shop.
+FixAuto PTE. LTD. is a auto shop based in Singapore.
 
 ## Current Version
 
